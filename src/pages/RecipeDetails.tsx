@@ -34,7 +34,7 @@ export default function RecipeDetails() {
       try {
         const response = await axios.get(`http://127.0.0.1:8000/api/recipe/${slug}`, {
           headers: {
-              'X-API-KEY': 'dasdawerqwer21312321eadasdasda'
+              'X-API-KEY': 'dasdasddfasghfdghdfg'
           }
       });
         setRecipe(response.data.data);

@@ -30,7 +30,7 @@ export default function SearchDetails() {
         try {
             const response = await axios.get(`http://127.0.0.1:8000/api/recipes/search?query=${encodeURIComponent(query)}`, {
                 headers: {
-                    'X-API-KEY': 'dasdawerqwer21312321eadasdasda',
+                    'X-API-KEY': 'dasdasddfasghfdghdfg',
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                 }

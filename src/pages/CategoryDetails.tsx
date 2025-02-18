@@ -15,7 +15,7 @@ export default function CategoryDetails() {
         axios
             .get(`http://127.0.0.1:8000/api/category/${slug}`, {
                 headers: {
-                    'X-API-KEY': 'dasdawerqwer21312321eadasdasda'
+                    'X-API-KEY': 'dasdasddfasghfdghdfg'
                 }
             })
             .then((response) => {
